@@ -1,0 +1,39 @@
+
+.Introduction {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .Introduction-container {
+    color: #333;
+    font-size: 1em;
+    display: inline-block;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .Introduction-message {
+    text-align: center;
+    flex: 1;
+    justify-content: flex-end;
+    margin-top: 20vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  .Introduction-container-right {
+    display: flex;
+    flex: 1;
+    color: #333;
+    justify-content: center;
+  }
+  
+  .textA {
+    font-size: 3.6em;
+  }
+  
+  .textB {
+    font-size: 2.4em;
+  }
